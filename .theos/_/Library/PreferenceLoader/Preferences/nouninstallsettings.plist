@@ -1,0 +1,10 @@
+{
+	entry = {
+		bundle = nouninstallsettings;
+		cell = PSLinkCell;
+		detail = "nouninstallsettingsListController";
+		icon = "icon.png";
+		isController = 1;
+		label = NoUninstall;
+	};
+}
