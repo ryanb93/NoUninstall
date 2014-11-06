@@ -1,10 +1,9 @@
 Package: com.ryanburke.nouninstall
 Name: NoUninstall
-Depends: mobilesubstrate
-Version: 0.1
+Version: 0.2
 Architecture: iphoneos-arm
 Description: Tweak which removes the uninstall option on all applications. Can toggle on and off in Settings. Perfect for stopping people accidentally removing applications on your device. Supports ARMV7/S AND ARM64.
 Maintainer: Ryan Burke
 Author: Ryan Burke
 Section: Tweaks
-Depend: firmware (>=7.0), mobilesubstrate, preferenceloader 
+Depend: firmware (>=6.0), mobilesubstrate, preferenceloader 

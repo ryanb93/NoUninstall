@@ -16,11 +16,11 @@
 			<key>default</key>
 			<true/>
 			<key>defaults</key>
-			<string>com.ryanburke.nouninstallsettings</string>
+			<string>com.ryanburke.nouninstall</string>
 			<key>key</key>
 			<string>enabled</string>
 			<key>label</key>
-			<string>Enabled</string>
+			<string>Enable</string>
 		</dict>
 		<dict>
 			<key>cell</key>

@@ -10,17 +10,16 @@
 
 %group main
 
-%hook SBIconController
+	%hook SBIconController
 
-	-(BOOL)allowsUninstall {
+		-(BOOL)allowsUninstall {
+			CFPreferencesAppSynchronize(CFSTR("com.ryanburke.nouninstall"));
+			CFBooleanRef value = (CFBooleanRef)CFPreferencesCopyAppValue(CFSTR("enabled"), CFSTR("com.ryanburke.nouninstall"));
 
-		CFPreferencesAppSynchronize(CFSTR("com.ryanburke.nouninstallsettings"));
-		CFPropertyListRef value = CFPreferencesCopyAppValue(CFSTR("enabled"), CFSTR("com.ryanburke.nouninstallsettings"));
+			return !CFBooleanGetValue(value);
+		}
 
-		return !value;
-	}
-
-%end
+	%end
 
 %end
 

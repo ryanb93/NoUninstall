@@ -5,9 +5,9 @@
 	<key>CFBundleDevelopmentRegion</key>
 	<string>English</string>
 	<key>CFBundleExecutable</key>
-	<string>nouninstallsettings</string>
+	<string>NoUninstall</string>
 	<key>CFBundleIdentifier</key>
-	<string>com.ryanburke.nouninstallsettings</string>
+	<string>com.ryanburke.nouninstall</string>
 	<key>CFBundleInfoDictionaryVersion</key>
 	<string>6.0</string>
 	<key>CFBundlePackageType</key>
@@ -21,8 +21,8 @@
 	<key>DTPlatformName</key>
 	<string>iphoneos</string>
 	<key>MinimumOSVersion</key>
-	<string>5.1.1</string>
+	<string>6.0</string>
 	<key>NSPrincipalClass</key>
-	<string>nouninstallsettingsListController</string>
+	<string>NoUninstallListController</string>
 </dict>
 </plist>

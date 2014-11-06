@@ -1,8 +1,8 @@
 {
 	entry = {
-		bundle = nouninstallsettings;
+		bundle = NoUninstall;
 		cell = PSLinkCell;
-		detail = "nouninstallsettingsListController";
+		detail = "NoUninstallListController";
 		icon = "icon.png";
 		isController = 1;
 		label = NoUninstall;
